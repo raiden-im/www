@@ -1,4 +1,61 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 export default function NanocoderTerminal() {
+  const commands = [
+    "Build a RESTful API with authentication",
+    "Create a React component with TypeScript",
+    "Add unit tests for the user service",
+    "Refactor the database queries for performance",
+    "Implement a WebSocket chat feature",
+    "Set up CI/CD pipeline with GitHub Actions",
+    "Optimize the image loading performance",
+    "Add dark mode support to the application",
+    "Create a responsive navbar component",
+    "Implement infinite scroll for the feed",
+    "Add error boundary to catch React errors",
+    "Write documentation for the API endpoints",
+  ];
+
+  const [currentCommandIndex, setCurrentCommandIndex] = useState(() =>
+    Math.floor(Math.random() * commands.length)
+  );
+  const [displayedText, setDisplayedText] = useState("");
+  const [isTyping, setIsTyping] = useState(true);
+
+  useEffect(() => {
+    const currentCommand = commands[currentCommandIndex];
+
+    if (isTyping) {
+      if (displayedText.length < currentCommand.length) {
+        const timeout = setTimeout(() => {
+          setDisplayedText(currentCommand.slice(0, displayedText.length + 1));
+        }, 50);
+        return () => clearTimeout(timeout);
+      } else {
+        const timeout = setTimeout(() => {
+          setIsTyping(false);
+        }, 2000);
+        return () => clearTimeout(timeout);
+      }
+    } else {
+      if (displayedText.length > 0) {
+        const timeout = setTimeout(() => {
+          setDisplayedText(displayedText.slice(0, -1));
+        }, 30);
+        return () => clearTimeout(timeout);
+      } else {
+        let newIndex;
+        do {
+          newIndex = Math.floor(Math.random() * commands.length);
+        } while (newIndex === currentCommandIndex && commands.length > 1);
+        setCurrentCommandIndex(newIndex);
+        setIsTyping(true);
+      }
+    }
+  }, [displayedText, isTyping, currentCommandIndex, commands]);
+
   return (
     <div className="bg-black rounded-lg overflow-hidden shadow-2xl border border-[#7dcfff]/30">
       {/* Terminal Window Controls */}
@@ -84,13 +141,15 @@ export default function NanocoderTerminal() {
           <div className="text-[#bb9af7] font-bold">
             What would you like me to help with?
           </div>
-          <div className="text-[#565f89]">
+          <div className="text-[#c0caf5]">
             {"> "}
-            <span className="text-[#565f89]">
-              <span className="bg-white">T</span>ype "/" and then press Tab for
-              command suggestions or "!" to execute bash commands. Use ↑/↓ for
-              history.
+            <span className="text-[#c0caf5]">
+              {displayedText}
+              <span className="text-[#c0caf5]">█</span>
             </span>
+          </div>
+          <div className="text-[#565f89] text-xs mt-2">
+            Type "/" and then press Tab for command suggestions or "!" to execute bash commands. Use ↑/↓ for history.
           </div>
           <div className="text-[#565f89] flex items-center gap-2 mt-4">
             <span className="text-[#565f89]">▶</span> normal mode on{" "}

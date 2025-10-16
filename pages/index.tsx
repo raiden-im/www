@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -12,7 +13,16 @@ import NanocoderTerminal from "@/components/NanocoderTerminal";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background font-sans">
+    <>
+      <Head>
+        <title>Nano Collective - Open Source Local-First AI Tools</title>
+        <meta
+          name="description"
+          content="Creating powerful, local-first AI tools, developed by the community for the community. Privacy-first, open source AI that runs on your machine."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <div className="min-h-screen bg-background font-sans">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none" />
@@ -297,5 +307,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }
