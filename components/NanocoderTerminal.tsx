@@ -1,22 +1,25 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 export default function NanocoderTerminal() {
-  const commands = [
-    "Build a RESTful API with authentication",
-    "Create a React component with TypeScript",
-    "Add unit tests for the user service",
-    "Refactor the database queries for performance",
-    "Implement a WebSocket chat feature",
-    "Set up CI/CD pipeline with GitHub Actions",
-    "Optimize the image loading performance",
-    "Add dark mode support to the application",
-    "Create a responsive navbar component",
-    "Implement infinite scroll for the feed",
-    "Add error boundary to catch React errors",
-    "Write documentation for the API endpoints",
-  ];
+  const commands = useMemo(
+    () => [
+      "Build a RESTful API with authentication",
+      "Create a React component with TypeScript",
+      "Add unit tests for the user service",
+      "Refactor the database queries for performance",
+      "Implement a WebSocket chat feature",
+      "Set up CI/CD pipeline with GitHub Actions",
+      "Optimize the image loading performance",
+      "Add dark mode support to the application",
+      "Create a responsive navbar component",
+      "Implement infinite scroll for the feed",
+      "Add error boundary to catch React errors",
+      "Write documentation for the API endpoints",
+    ],
+    []
+  );
 
   const [currentCommandIndex, setCurrentCommandIndex] = useState(() =>
     Math.floor(Math.random() * commands.length)
