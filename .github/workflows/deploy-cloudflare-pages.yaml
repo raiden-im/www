@@ -48,6 +48,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: nano-collective-website
+          projectName: website
           directory: ./dist
           branch: main # override
