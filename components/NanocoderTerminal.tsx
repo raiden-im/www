@@ -112,7 +112,7 @@ export default function NanocoderTerminal() {
           <div className="space-y-1">
             <div>
               <span className="text-[#2ac3de] font-bold">CWD:</span>{" "}
-              <span className="text-[#2ac3de]">/nano-collective/nanocoder</span>
+              <span className="text-[#2ac3de]">/raiden/nanocoder</span>
             </div>
             <div>
               <span className="text-[#2ac3de] font-bold">Config:</span>{" "}

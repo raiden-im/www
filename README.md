@@ -1,14 +1,14 @@
-# Nano Collective Website
+# Raiden Website
 
-The official website for the [Nano Collective](https://nanocollective.org) - an open-source AI tools collective building local-first, privacy-respecting AI applications.
+The official website for [Raiden](https://raiden.im) - an open-source AI tools collective building local-first, privacy-respecting AI applications.
 
 ## About
 
-This website serves as the landing page and showcase for the Nano Collective organization, highlighting our mission to democratize access to powerful AI tools that run locally, respect user privacy, and are shaped by the community.
+This website serves as the landing page and showcase for Raiden, highlighting our mission to democratize access to powerful AI tools that run locally, respect user privacy, and are shaped by the community.
 
 ### Featured Projects
 
-- **[Nanocoder](https://github.com/Nano-Collective/nanocoder)** - A powerful AI coding assistant that runs entirely on your machine
+- **[Nanocoder](https://github.com/raiden-collective/nanocoder)** - A powerful AI coding assistant that runs entirely on your machine
 
 ## Tech Stack
 
@@ -76,15 +76,15 @@ We welcome contributions! Here's how you can help:
 
 ## Community
 
-- **GitHub**: [github.com/Nano-Collective](https://github.com/Nano-Collective)
+- **GitHub**: [github.com/raiden-collective](https://github.com/raiden-collective)
 - **Discord**: [Join our community](https://discord.gg/ktPDV6rekE)
 
 ## License
 
 This project is open source and available under the MIT License with Attribution.
 
-See [LICENSE.md](LICENSE.md) for full details. When using this software, please include attribution to Nano Collective and contributors.
+See [LICENSE.md](LICENSE.md) for full details. When using this software, please include attribution to Raiden and contributors.
 
 ---
 
-Built with care by the Nano Collective community
+Built with care by the Raiden community

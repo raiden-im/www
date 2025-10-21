@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nano Collective - Open Source Local-First AI Tools</title>
+        <title>Raiden - Open Source Local-First AI Tools</title>
         <meta
           name="description"
           content="Creating powerful, local-first AI tools, developed by the community for the community. Privacy-first, open source AI that runs on your machine."
@@ -34,7 +34,7 @@ export default function Home() {
                 </Badge>
               </div>
               <h1 className="text-5xl sm:text-7xl font-bold tracking-tight bg-gradient-to-br from-foreground to-foreground/60 bg-clip-text text-transparent">
-                Nano Collective
+                Raiden
               </h1>
               <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                 Creating powerful, local-first AI tools, developed by the
@@ -43,7 +43,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
                 <Button size="lg" className="group text-base" asChild>
                   <a
-                    href="https://github.com/Nano-Collective"
+                    href="https://github.com/raiden-collective"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -58,7 +58,7 @@ export default function Home() {
                   asChild
                 >
                   <a
-                    href="https://github.com/Nano-Collective/nanocoder"
+                    href="https://github.com/raiden-collective/nanocoder"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className="text-center pt-8">
                   <Button size="lg" className="group text-base" asChild>
                     <a
-                      href="https://github.com/Nano-Collective/nanocoder"
+                      href="https://github.com/raiden-collective/nanocoder"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -259,7 +259,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
                 <Button size="lg" className="group" asChild>
                   <a
-                    href="https://github.com/Nano-Collective"
+                    href="https://github.com/raiden-collective"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -287,18 +287,18 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="text-center md:text-left">
-                <h3 className="font-bold text-xl mb-2">Nano Collective</h3>
+                <h3 className="font-bold text-xl mb-2">Raiden</h3>
                 <p className="text-sm text-muted-foreground">
                   Building powerful, local-first AI tools for everyone
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  © {new Date().getFullYear()} Nano Collective. Open source and
+                  © {new Date().getFullYear()} Raiden. Open source and
                   community driven.
                 </p>
               </div>
               <div className="flex gap-6">
                 <a
-                  href="https://github.com/Nano-Collective"
+                  href="https://github.com/raiden-collective"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors group"

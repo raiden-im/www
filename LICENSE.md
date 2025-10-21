@@ -2,7 +2,7 @@
 
 MIT License with Attribution
 
-Copyright (c) 2025 Nano Collective
+Copyright (c) 2025 Raiden
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -15,11 +15,11 @@ The above copyright notice and this permission notice shall be included in all c
 
 ## Attribution Requirement
 
-Any use, reproduction, or distribution of the Software, or any derivative works based on the Software, must include clear and prominent attribution to the original creators and contributors of the Nano Collective. This attribution must include:
+Any use, reproduction, or distribution of the Software, or any derivative works based on the Software, must include clear and prominent attribution to the original creators and contributors of Raiden. This attribution must include:
 
-1. The name "Nanocoder" and a reference to the original project
-2. A link to the original repository: https://github.com/nano-collective
-3. Credit to "Nano Collective and contributors"
+1. The name "Raiden" and a reference to the original project
+2. A link to the original repository: https://github.com/raiden-collective
+3. Credit to "Raiden and contributors"
 
 This attribution should be included in:
 
