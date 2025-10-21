@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Code2, Terminal, Zap, Users, Lock, Sparkles } from "lucide-react";
 import { FaGithub, FaDiscord } from "react-icons/fa";
 import RaidenTerminal from "@/components/RaidenTerminal";
+import { SimpleThemeToggle } from "@/components/SimpleThemeToggle";
 
 export default function Home() {
   return (
@@ -23,6 +24,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="min-h-screen bg-background font-sans">
+        {/* Theme Toggle - Fixed Position */}
+        <div className="fixed top-6 right-6 z-50">
+          <SimpleThemeToggle />
+        </div>
+
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none" />
