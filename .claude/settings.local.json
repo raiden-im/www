@@ -3,7 +3,8 @@
     "allow": [
       "Bash(tree:*)",
       "Bash(pnpm dev)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

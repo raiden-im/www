@@ -53,7 +53,13 @@ Create a production build:
 pnpm build
 ```
 
+### Serve:
 The static site will be exported to the `dist/` directory.
+  Other Static Servers:
+
+  http-server:
+
+  npx http-server dist -p 3001
 
 ### Lint
 
