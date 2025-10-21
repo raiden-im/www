@@ -8,7 +8,7 @@ This website serves as the landing page and showcase for Raiden, highlighting ou
 
 ### Featured Projects
 
-- **[Nanocoder](https://github.com/raiden-collective/nanocoder)** - A powerful AI coding assistant that runs entirely on your machine
+- **[Raiden AI](https://github.com/raiden-collective/raiden-ai)** - A powerful AI coding assistant that runs entirely on your machine
 
 ## Tech Stack
 

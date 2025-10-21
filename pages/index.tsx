@@ -9,7 +9,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Code2, Terminal, Zap, Users, Lock, Sparkles } from "lucide-react";
 import { FaGithub, FaDiscord } from "react-icons/fa";
-import NanocoderTerminal from "@/components/NanocoderTerminal";
+import RaidenTerminal from "@/components/RaidenTerminal";
 
 export default function Home() {
   return (
@@ -58,12 +58,12 @@ export default function Home() {
                   asChild
                 >
                   <a
-                    href="https://github.com/raiden-collective/nanocoder"
+                    href="https://github.com/raiden-collective/raiden-ai"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Terminal className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                    Try Nanocoder
+                    Try Raiden AI
                   </a>
                 </Button>
               </div>
@@ -133,7 +133,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Nanocoder Showcase */}
+        {/* Raiden AI Showcase */}
         <section className="py-20 border-t border-border/40">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
@@ -141,7 +141,7 @@ export default function Home() {
                 <Badge variant="outline" className="mb-2">
                   Featured Project
                 </Badge>
-                <h2 className="text-4xl sm:text-5xl font-bold">Nanocoder</h2>
+                <h2 className="text-4xl sm:text-5xl font-bold">Raiden AI</h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                   A beautiful local-first coding agent running in your terminal
                 </p>
@@ -149,7 +149,7 @@ export default function Home() {
 
               <div className="space-y-8">
                 {/* Terminal Demo */}
-                <NanocoderTerminal />
+                <RaidenTerminal />
 
                 {/* Features List */}
                 <div className="grid md:grid-cols-2 gap-6">
@@ -232,12 +232,12 @@ export default function Home() {
                 <div className="text-center pt-8">
                   <Button size="lg" className="group text-base" asChild>
                     <a
-                      href="https://github.com/raiden-collective/nanocoder"
+                      href="https://github.com/raiden-collective/raiden-ai"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <FaGithub className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
-                      Explore Nanocoder
+                      Explore Raiden AI
                     </a>
                   </Button>
                 </div>

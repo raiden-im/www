@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 
-export default function NanocoderTerminal() {
+export default function RaidenTerminal() {
   const commands = useMemo(
     () => [
       "Build a RESTful API with authentication",
@@ -73,8 +73,8 @@ export default function NanocoderTerminal() {
         {/* cfonts-style ASCII Header (tiny font) */}
         <div className="mb-12 text-sm leading-tight font-bold select-none">
           <div className="bg-gradient-to-r from-[#bb9af7] via-[#7dcfff] to-[#7dcfff] bg-clip-text text-transparent">
-            <div>█▄ █ ▄▀█ █▄ █ █▀█ █▀▀ █▀█ █▀▄ █▀▀ █▀█</div>
-            <div>█ ▀█ █▀█ █ ▀█ █▄█ █▄▄ █▄█ █▄▀ ██▄ █▀▄</div>
+            <div>█▀█ ▄▀█ █ █▀▄ █▀▀ █▄ █   ▄▀█ █</div>
+            <div>█▀▄ █▀█ █ █▄▀ ██▄ █ ▀█   █▀█ █</div>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ export default function NanocoderTerminal() {
         <div className="border border-[#bb9af7] rounded-md p-4 pt-5 mb-6 bg-black relative text-xs">
           <div className="absolute -top-3 left-2">
             <div className="inline-block bg-[#bb9af7] rounded-full px-2 py-0.5 text-[#1a1b26]">
-              ✱ Welcome to Nanocoder 1.13.7
+              ✱ Welcome to Raiden AI 1.0.0
             </div>
           </div>
           <div className="text-[#c0caf5] mb-4">Tips for getting started:</div>
@@ -112,7 +112,7 @@ export default function NanocoderTerminal() {
           <div className="space-y-1">
             <div>
               <span className="text-[#2ac3de] font-bold">CWD:</span>{" "}
-              <span className="text-[#2ac3de]">/raiden/nanocoder</span>
+              <span className="text-[#2ac3de]">/raiden/raiden-ai</span>
             </div>
             <div>
               <span className="text-[#2ac3de] font-bold">Config:</span>{" "}
